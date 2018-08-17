@@ -2,6 +2,7 @@
 A Javascript Todo App with all the trendy technologies  
 
 Allows you to authenticate through JWT Tokens to a Django Rest Framework backend API to create and delete Todo's 
+
 The Frontend can be served from a nginx server and/or cached with a CDN. 
 
 The backend is totally separated and can run on another server
