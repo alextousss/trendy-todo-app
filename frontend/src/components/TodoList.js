@@ -3,9 +3,6 @@ import { Table } from 'semantic-ui-react'
 import TodoView from './TodoView';
 
 class TodoList extends Component {
-    constructor(props) {
-        super(props)
-    }
 
     componentDidMount() {
         this.props.onMount()

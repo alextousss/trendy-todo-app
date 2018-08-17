@@ -3,7 +3,6 @@ import {
     CREATE_TODO_SUCCESS,
     GET_TODOS_SUCCESS,
     REMOVE_TODO,
-    REMOVE_TODO_SUCCESS
 } from '../actions/todos.js'
 
 const todos = (state = [], action) => {

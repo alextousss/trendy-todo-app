@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
 import { Button, Input, Form, Grid } from 'semantic-ui-react'
-import { history } from './../store.js'
 
 
 class LoginPage extends Component {
-    constructor(props)  {
-        super(props)
-    }
-    
     componentWillMount() {
         if (this.props.user.authenticated) {
             this.props.history.replace({pathname: '/'})

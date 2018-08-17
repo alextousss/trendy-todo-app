@@ -1,5 +1,5 @@
 import React, { Component} from 'react'
-import { Route, Link } from 'react-router-dom'
+import { Route } from 'react-router-dom'
 import Login from '../containers/Login'
 import AddTodo from '../containers/AddTodo'
 import ListTodo from '../containers/ListTodo'
@@ -8,9 +8,9 @@ import LogoutButton from './LogoutButton'
 import { logout } from './../actions/user'
 
 
-import { Container,  Divider, Button, Grid } from 'semantic-ui-react'
+import { Container,  Divider, Grid } from 'semantic-ui-react'
 
-import store, { history } from '../store'
+import store from '../store'
 
 function requireAuth (WrappedComponent) {
     return class extends Component { 
