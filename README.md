@@ -24,13 +24,13 @@ It doesn't supports patching todos or registering to the server, as it is just a
 ## Installation : 
 ### Backend :
 Run `cd backend` \
-Run `pip3 install djangorestframework django-rest-framework-jwt django-cors-headers` \
+Run `pip3 install django-rest-framework djangorestframework-jwt django-cors-headers` \
 Run `python3 manage.py migrate` \
 Create a user with `python3 manage.py createsuperuser` 
 
 ### Frontend :
 Run `cd frontend` \
-Run `npm install package.json` (Not tested yet, but it should work ?)
+Run `npm install` (Not tested yet, but it should work ?)
 
 ## Launch it !
 Run `python3 manage.py runserver 0.0.0.0:8000` in the `backend` directory \
