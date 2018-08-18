@@ -24,7 +24,7 @@ It doesn't supports patching todos or registering to the server, as it is just a
 ## Installation : 
 ### Backend :
 Run `cd backend` \
-Run `pip3 install djangorestframework djangorestframework-jwt` \
+Run `pip3 install djangorestframework django-rest-framework-jwt django-cors-headers` \
 Run `python3 manage.py migrate` \
 Create a user with `python3 manage.py createsuperuser` 
 
